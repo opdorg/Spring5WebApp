@@ -74,7 +74,7 @@ public class Author {
 
     @Override
     public int hashCode() {
-
+    	// new way to generate hashCode
         return Objects.hash(id);
     }
 
